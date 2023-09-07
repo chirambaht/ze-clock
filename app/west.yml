@@ -1,0 +1,16 @@
+manifest:
+  version: 0.8
+
+  projects:
+    - name: zephyr
+      url: https://github.com/zephyrproject-rtos/zephyr
+      revision: zephyr-v3.4.0
+      import:
+        file: west.yml
+        path-prefix: deps
+        name-allowlist:
+          - nanopb
+          - hal_espressif
+  
+  self:
+    path: app

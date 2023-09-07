@@ -1,0 +1,7 @@
+.venv/
+.vscode/
+.west/
+deps/
+
+app/build/
+*code-workspace
